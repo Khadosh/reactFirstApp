@@ -1,8 +1,9 @@
 import React, { PropTypes } from 'react';
+import Header from './common/header';
 
 const App = (props) => (
   <div className="container-fluid">
-    <p>Header Here</p>
+    <Header />
     {props.children}
   </div>
 );
