@@ -8,8 +8,8 @@ const App = (props) => (
   </div>
 );
 
-App.PropTypes = {
-  children: PropTypes.object.required
+App.propTypes = {
+  children: PropTypes.element.isRequired
 };
 
 export default App;
